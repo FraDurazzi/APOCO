@@ -1,2 +1,5 @@
 .ipynb_checkpoints/
 ignored/
+data/*
+images/
+outputs/
