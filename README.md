@@ -6,8 +6,9 @@ The general approach is to write a set of differential equations that describe t
 The right choice of parameters describing the situation is crucial for both a qualitative and quantitative description of the phenomena.
 
 ### Models
-The model we employ is based on a traditional SEIR, taken from the most used ones in the epidemiological modelling field. In particular: 
-SEIRTD: susceptible-exposed-infected-hospitalized-intensivecare.
+The modelw we employ are based on a traditional SEIR, taken from the most used ones in the epidemiological modelling field. In particular: 
+SEIRTD: susceptible-exposed-infected-hospitalized-intensivecare. (Currently overestimates largely the number of infected and hospitalized people).
+SEAIRTD: susceptible-exposed-asymptomatic-infected-hospitalized-intensivecare.
 
 ### Choice of parameters
 While some parameters can "easily" be guessed from the literature and the web, some others can not.
